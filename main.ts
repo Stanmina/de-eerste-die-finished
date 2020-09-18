@@ -5,13 +5,7 @@ input.onButtonPressed(Button.A, function () {
         if (player2 == 0) {
             basic.clearScreen()
         } else if (player2 == 1) {
-            basic.showLeds(`
-                . . . . .
-                # . . . .
-                . . . . .
-                . . . . .
-                . . . . .
-                `)
+        	
         } else if (player2 == 2) {
             basic.showLeds(`
                 . . . . .
